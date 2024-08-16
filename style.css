@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+body{
+    background-image: linear-gradient(to bottom ,rgba(37, 43, 61, 1), black);
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: rgba(37, 43, 61, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    color: white;
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    margin: 0 0 0 100px;
+}
+
+#search{
+    background-color: white;
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+main{
+    padding: 30px 100px;
+    color: white;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#true-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.img-tarefa{
+    height: 200px;
+    width: 520px;
+}
+
+#right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(175, 175, 175);
+    height: 100px;
+    max-width: 100%;
+    margin-top: 70px;
+    padding: 10px 100px;
+}
+
+#left-footer{
+    display: flex;
+    gap: 20px;
+}
+
+#contato{
+    display: flex;
+    flex-direction: column;
+}
+
+#right-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
